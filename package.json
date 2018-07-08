@@ -1,5 +1,6 @@
 {
   "name": "tic-tac-toe-game",
+  "homepage": "https://codebysergeyivanov.github.io/tic-tac-toe-game/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
