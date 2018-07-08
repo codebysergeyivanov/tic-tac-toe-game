@@ -1,0 +1,31 @@
+.game-select {
+    text-align: center;
+    font-size: 25px;
+}
+
+.game-select .one-player,
+.game-select .two-player {
+    margin: 5px;
+    padding: 20px;
+}
+
+.game-select button {
+    width: 120px;
+    background: inherit;
+    border: 3px dotted black;
+    transition: 1s;
+}
+
+.game-select button:hover {
+    background: inherit;
+    border: 3px dotted #fff;
+}
+
+
+
+
+
+ 
+
+
+

@@ -1,0 +1,27 @@
+.game-starter {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.game-starter .choose-x,
+.game-starter .choose-o,
+.game-starter .back-button {
+    margin: 5px;
+    padding: 20px;
+}
+
+.game-starter button {
+    background: inherit;
+    border: 3px dotted black;
+    transition: 1s;
+}
+
+.game-starter button:hover {
+    background: inherit;
+    border: 3px dotted #fff;
+}
+
+.back-button {
+    font-size: 20px;
+}

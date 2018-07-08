@@ -1,0 +1,42 @@
+.game-field {
+    width: inherit;
+    height: inherit;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100px;
+    color: #fff;
+}
+
+.game-field table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.game-field td { 
+    height: 130px;
+    padding: 0;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+}
+
+
+.block {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: inherit;
+    height: inherit;
+    background: transparent;
+}
+
+@media (max-width: 400px) {
+    .game-field td { 
+        height: 100px;
+        padding: 0;
+        border: 2px solid rgba(0, 0, 0, 0.8);
+        box-sizing: border-box;
+        font-size: 70px;
+    }
+}
