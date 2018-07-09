@@ -25,6 +25,7 @@ button {
   font-family: 'Amatic SC', cursive, sans-serif;
   font-size: 30px;
   color: #fff;
+  outline: none;
 }
 
 @media (max-width: 400px) {

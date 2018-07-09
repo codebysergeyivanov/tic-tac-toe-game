@@ -25,7 +25,8 @@
   font-size: 20px;
   outline: none;
   background: inherit;
-  border: none; 
+  border: none;
+  outline: none; 
 }
 .top-panel .reset:hover {
   border-bottom: 1px solid #fff;

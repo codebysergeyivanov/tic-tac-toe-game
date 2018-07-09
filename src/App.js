@@ -186,7 +186,7 @@ class App extends Component {
                 win = true;
               }
             })
-            break;
+            if(win) break;
           }
         }
 
@@ -356,6 +356,7 @@ class App extends Component {
                 win = true;
               }
             })
+            if(win) break;
           }
         }
 
